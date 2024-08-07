@@ -1,0 +1,167 @@
+body{
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.ndots{
+    width: 16px;
+}
+
+
+.topRight{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePic{
+    width: 30px;
+}
+
+.flask{
+    width: 22px;
+}
+
+#rightContent {
+    margin: 10px 10px;
+    
+}
+
+
+#leftContent {
+    margin: 10px 10px;
+    text-decoration: none;
+    
+}
+
+.topBar{
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-decoration: none;
+    color: #eef0ffdc;
+    font-size: 13.5;
+}
+
+.gif{
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox{
+    margin-top: 26px;
+    width: 582px;
+    height: 46px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 50px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.realBtn1{
+    margin: 9px 5px;
+    padding: 10px 17px;
+    color: #e8eaed;
+    background-color: #303134;
+    border-radius: 3px;
+    font-size: 14;
+}
+
+.realBtn2{
+    margin: 9px 5px;
+    padding: 10px 6px;
+    color: #e8eaed;
+    background-color: #303134;
+    border-radius: 3px;
+    font-size: 14;
+    text-decoration: none;
+}
+
+.langBox{
+    display: flex;
+    justify-content: center;
+    color: #bfbfbf;
+    margin-top: 16px;
+    font-size: 13;
+    align-items: baseline;
+}
+
+.languages{
+    color: #8ab4f8;
+    padding-left: 10px;
+    font-size: 13;
+    text-decoration: none;
+}
+
+.bottom1{
+    padding: 15px 30px;
+    color: #e8eaed;
+    font-size: 14;
+    background-color: rgba(17, 17, 17, 0.637);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+.bottom2{
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 0.623);
+}
+
+.bottomRight{
+    display: flex;
+    justify-content: space-between;
+    color: #e8eaed;
+    
+    font-size: 14;
+}
+
+.bottomLeft{
+    display: flex;
+    justify-content: space-between;
+    color: #e8eaed;
+    
+    font-size: 14;
+}
+
+.btmd {
+    padding: 15px;
+}
+
+.down{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btmlink{
+    text-decoration: none;
+    color: #e8eaed;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+

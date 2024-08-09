@@ -76,8 +76,11 @@ body{
 }
 
 .searchBox:hover {
-    border: none;
+    border: transparent;
     background-color: #303134;
+    .searchArea {
+        background-color: #303134;
+    }
 }
 
 .buttons {
@@ -95,6 +98,16 @@ body{
     font-size: 14;
 }
 
+.realBtn1:hover {
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.realBtn2:hover {
+    border: 1px solid grey;
+    text-decoration: none;
+}
+
 .realBtn2{
     margin: 9px 5px;
     padding: 10px 6px;
@@ -102,6 +115,15 @@ body{
     background-color: #303134;
     border-radius: 3px;
     font-size: 14;
+}
+
+.realBtnLink{
+    padding: 10px 10px;
+    color: #e8eaed;
+    text-decoration: none;
+}
+
+.realBtnLink:hover {
     text-decoration: none;
 }
 
@@ -182,6 +204,7 @@ a:hover{
 }
 
 .cameraIcon {
+    padding-left: 10px;
     width: 25px;
 }
 
@@ -194,11 +217,7 @@ a:hover{
 }
 
 .searchArea:focus {
-    outline: none;
-}
-
-.searchArea:hover {
-    background-color: #303134;
+    outline: transparent;
 }
 
 .textArea {
@@ -210,5 +229,20 @@ a:hover{
 }
 
 .iconRight {
-    margin: 0px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
+
+.cameraIcon:hover{
+    cursor: pointer;
+
+}
+
+.micIcon:hover {
+    cursor: pointer;
+}
+
+
+
+
